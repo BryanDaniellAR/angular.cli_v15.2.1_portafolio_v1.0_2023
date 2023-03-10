@@ -1,0 +1,33 @@
+.fondo{
+    height:95.3%;
+    width: 100vw;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("/assets/img/mountains.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo .container{
+    text-align: center;
+    justify-content: center;
+    display: inline-grid;
+}
+.formulario-contacto{
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        );
+    text-align: left;
+    padding: 2vh;
+    margin: 1vh;
+    width: 50vh;
+}
+.form-group label{
+    color: white;
+}

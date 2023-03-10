@@ -1,0 +1,23 @@
+nav#navbar{
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 5px 5px 10px #666465;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+nav div div ul li.nav-item:hover{
+    border-bottom: 3px solid #e656ad;
+}
+nav div div ul li a.nav-link{
+    color: rgb(0, 0, 0);
+    border: 0px !important;
+    font-size: large;
+}
+nav div div ul li.activebutton{
+    border-bottom: 3px solid #e656ad;
+}
+button.navbar-toggler{
+    box-shadow: none;
+    padding: 8px;
+}

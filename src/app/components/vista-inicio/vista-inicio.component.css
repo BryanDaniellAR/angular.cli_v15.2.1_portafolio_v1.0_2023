@@ -1,0 +1,47 @@
+.fondo{
+    height: 95.3%;
+    width: 100vw;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("/assets/img/mountains.png") no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo .container{
+    text-align: center;
+}
+.fondo .container h1{
+    color: white;
+}
+.fondo .container ul{
+    list-style: circle;
+    text-decoration: double;
+}
+.fondo .container ul li{
+    color: white;
+    display: inline-block;
+    margin: 15px;
+    list-style: circle;
+    text-decoration: underline;
+}
+.fondo .container a{
+    border-color: #e656ad;
+    margin: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+}
+.fondo .container a.btn:hover{
+    background-color: #750d4b;
+}
+.fondo .container a.about{
+    background-color: Transparent;
+}
+.fondo .container a.work{
+    background-color: #e656ad;
+}

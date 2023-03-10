@@ -1,0 +1,31 @@
+.fondo{
+    width: 100vw;
+    height:95.3%;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+}
+.fondo .container{
+    text-align: center;
+    justify-content: center;
+    display: inline-grid;
+    margin-top:25px ;
+}
+img.me{
+    height: 300px;
+    overflow: hidden;
+}
+.card{
+    width: 10rem;
+    margin: 0.5vh !important;
+}
+.card img{
+    padding-top: 5px;
+}
+.card-title{
+    font-size: 0.7rem;
+}
+.card-text{
+    font-size: 0.7rem;
+}

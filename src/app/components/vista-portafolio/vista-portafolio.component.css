@@ -1,0 +1,19 @@
+.fondo{
+    width: 100vw;
+    height: 95.3%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+}
+.card{
+    width: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.language div a{
+    text-decoration: none;
+    color:black;
+}

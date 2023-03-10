@@ -1,0 +1,25 @@
+.fondo{
+    width: 100vw;
+    height: 95.3%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+}
+.card{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    align-items: center;
+}
+.card-body{
+    padding:0px;
+}
+img{
+    height: 10rem;
+    width: 180px;
+}
+.language div a{
+    text-decoration: none;
+    color:black;
+}
