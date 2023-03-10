@@ -32,12 +32,13 @@ import { CargarScriptsService } from './services/cargar-scripts.service';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      { path: '', component:VistaInicioComponent},
       {path:'inicio',component:VistaInicioComponent},
       {path:'about',component:VistaAboutComponent},
       {path:'portafolio',component:VistaPortafolioComponent},
       {path:'lenguaje',component:VistaLanguageComponent},
       {path:'contacto',component:VistaContactoComponent},
-      { path: '**', component:VistaErrorComponent}, 
+      { path: '**', component:VistaErrorComponent}
     ])
   ],
   providers: [
