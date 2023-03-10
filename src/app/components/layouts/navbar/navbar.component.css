@@ -2,7 +2,7 @@ nav#navbar{
     position: relative;
     width: 100vw;
     background-color: white;
-    box-shadow: 5px 5px 10px #666465;
+    box-shadow: 5px 5px 5px #666465;
     margin-bottom: 0px;
     padding: 0px;
 }

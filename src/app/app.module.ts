@@ -11,9 +11,11 @@ import { VistaContactoComponent } from './components/vista-contacto/vista-contac
 import { VistaPortafolioComponent } from './components/vista-portafolio/vista-portafolio.component';
 import { VistaLanguageComponent } from './components/vista-language/vista-language.component';
 import { VistaAboutComponent } from './components/vista-about/vista-about.component';
+import { VistaErrorComponent } from './components/vista-error/vista-error.component';
 
 //INICIO SERVICE
 import { CargarScriptsService } from './services/cargar-scripts.service';
+
 //FIN SERVICE
 
 @NgModule({
@@ -25,6 +27,7 @@ import { CargarScriptsService } from './services/cargar-scripts.service';
     VistaPortafolioComponent,
     VistaLanguageComponent,
     VistaAboutComponent,
+    VistaErrorComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,7 @@ import { CargarScriptsService } from './services/cargar-scripts.service';
       {path:'portafolio',component:VistaPortafolioComponent},
       {path:'lenguaje',component:VistaLanguageComponent},
       {path:'contacto',component:VistaContactoComponent},
-      { path: '**', redirectTo: '/inicio', pathMatch: 'full' }, 
+      { path: '**', component:VistaErrorComponent}, 
     ])
   ],
   providers: [
